@@ -1,0 +1,35 @@
+{
+	"name": "mapapp",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^1.0.0",
+		"@sveltejs/kit": "^1.0.0",
+		"autoprefixer": "^10.4.13",
+		"postcss": "^8.4.20",
+		"svelte": "^3.54.0",
+		"svelte-check": "^2.9.2",
+		"tailwindcss": "^3.2.4",
+		"tslib": "^2.4.1",
+		"typescript": "^4.9.3",
+		"vite": "^4.0.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"daisyui": "^2.46.1",
+		"datauri": "^4.1.0",
+		"fluent-ffmpeg": "^2.1.2",
+		"fs": "^0.0.1-security",
+		"html2canvas": "^1.4.1",
+		"image-data-uri": "^2.0.1",
+		"leaflet": "^1.9.3",
+		"sharp": "^0.31.3"
+	}
+}

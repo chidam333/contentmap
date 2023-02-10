@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="mytheme">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+		integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+		crossorigin=""/>
+		<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+		integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+		crossorigin=""></script>
+		<script src="https://kit.fontawesome.com/6a87aa8373.js" crossorigin="anonymous"></script>
+		<link href="https://vjs.zencdn.net/7.21.1/video-js.css" rel="stylesheet" />
+		<meta name="viewport" content="width=device-width" />
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+		<script src="https://vjs.zencdn.net/7.21.1/video.min.js"></script>
+
+	</body>
+	<style>
+		body{
+			margin: 0%;
+		}
+	</style>
+</html>
